@@ -1,0 +1,19 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="primaryColor">#283593</color> <!-- Royal Blue -->
+    <color name="primaryDarkColor">#1A237E</color> <!-- Dark Royal Blue -->
+    <color name="accentColor">#FFD700</color> <!-- Gold Accent -->
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#FFFFFF</color> <!-- White for main text -->
+    <color name="textSecondary">#B0BEC5</color> <!-- Light Gray for secondary text -->
+    <color name="textHint">#E0E0E0</color> <!-- Light Gray for hints -->
+
+    <!-- Background Colors -->
+    <color name="backgroundColor">#212121</color> <!-- Dark Gray background -->
+    <color name="cardBackground">#424242</color> <!-- Slightly lighter gray for card background -->
+
+    <!-- Button Colors -->
+    <color name="buttonBackground">#283593</color> <!-- Royal Blue for button background -->
+    <color name="buttonText">#FFFFFF</color> <!-- White for button text -->
+</resources>

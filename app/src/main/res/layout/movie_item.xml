@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/card_background"
+    android:layout_margin="12dp"
+    android:elevation="12dp"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/movieImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerCrop"
+        android:padding="1dp"
+        app:shapeAppearanceOverlay="@style/RoundedCornerImage"
+        app:strokeColor="@color/accentColor"
+        app:strokeWidth="2dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/movieName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movie Name"
+            android:textColor="@color/textPrimary"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/movieRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⭐ Rating: 0.0"
+            android:textColor="@color/accentColor"
+            android:textSize="16sp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/movieDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Movie description goes here"
+            android:textColor="@color/textSecondary"
+            android:textSize="16sp"
+            android:ellipsize="end"
+            android:maxLines="3" />
+    </LinearLayout>
+</LinearLayout>
